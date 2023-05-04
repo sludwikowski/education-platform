@@ -2,8 +2,8 @@ import { cva, VariantProps } from 'class-variance-authority'
 
 const buttonClasses = cva(
   [
-    'rounded-3xl',
-    'font-bold',
+    'rounded-xl',
+    'font-semibold',
     'hover:scale-110',
     'active:scale-100',
     'transition',
@@ -13,23 +13,14 @@ const buttonClasses = cva(
   {
     variants: {
       intent: {
-        primary: [
-          'bg-blue-700',
-          'text-white',
-          'border-transparent',
-          'hover:bg-blue-800',
-        ],
+        primary: ['bg-[#323330]', 'text-white', 'hover:bg-[#5b5c59]'],
 
         secondary: [
-          'bg-white',
-          'text-black',
-          'border-gray-400',
-          'hover:bg-gray-100',
-          'border-solid',
-          'border-2',
-          'border-gray-800',
+          'bg-[#F0DB4F]',
+          'text-BLACK',
+          'hover:bg-[#F3E272]',
         ],
-        text: ['bg-transparent', 'text-black', 'hover:bg-gray-100'],
+        text: ['bg-transparent', 'text-black'],
       },
       size: {
         small: ['text-md', 'py-1', 'px-2'],
@@ -61,7 +52,7 @@ export function Button({
       {...props}
       type="submit"
     >
-      Boop
+      Zaloguj się
     </button>
   )
 }
