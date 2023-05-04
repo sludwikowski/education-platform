@@ -111,6 +111,7 @@ importers:
 
   packages/ui:
     specifiers:
+      '@tailwindcss/forms': ^0.5.3
       '@types/react': ^18.2.0
       '@types/react-dom': ^18.2.0
       class-variance-authority: 0.6.0
@@ -126,6 +127,7 @@ importers:
       clsx: 1.2.1
       react: 18.2.0
     devDependencies:
+      '@tailwindcss/forms': 0.5.3_tailwindcss@3.3.2
       '@types/react': 18.2.4
       '@types/react-dom': 18.2.3
       eslint: 8.39.0
@@ -602,6 +604,15 @@ packages:
     dependencies:
       tslib: 2.5.0
     dev: false
+
+  /@tailwindcss/forms/0.5.3_tailwindcss@3.3.2:
+    resolution: {integrity: sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+    dependencies:
+      mini-svg-data-uri: 1.4.4
+      tailwindcss: 3.3.2
+    dev: true
 
   /@tsconfig/node10/1.0.9:
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
@@ -3022,6 +3033,11 @@ packages:
   /min-indent/1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
+    dev: true
+
+  /mini-svg-data-uri/1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
     dev: true
 
   /minimatch/3.1.2:
