@@ -52,7 +52,7 @@ export function Button({
       {...props}
       type="submit"
     >
-      Zaloguj się
+      {children}
     </button>
   )
 }

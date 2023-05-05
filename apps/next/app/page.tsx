@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main>
-      <Button intent="secondary" />
+      <Button intent="secondary">Zaloguj się</Button>
       <Input intent="primary" placeholder="First Name" />
     </main>
   )
