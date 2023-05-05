@@ -4,12 +4,11 @@ import AuthForm from '../components/AuthForm'
 
 // import { Button, Input } from 'ui'
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
+    <main className={inter.className}>
       {/* <Button intent="secondary">Zaloguj się</Button>
       <Input intent="primary" placeholder="First Name" /> */}
       <AuthForm />
